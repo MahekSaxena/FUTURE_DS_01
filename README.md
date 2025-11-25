@@ -1,100 +1,74 @@
-# Task 1: E-Commerce Sales Dashboard (2009–2011)
+# 📊 Business Sales Dashboard from E-Commerce Data (Power BI)
 
-This project analyzes UK-based e-commerce sales data from 2009–2011 to uncover **best-selling products, sales trends, and high-revenue categories**.  
-The goal is to help business owners and decision-makers **understand performance drivers** and make data-driven decisions.
+This project presents an **interactive E-Commerce Sales Analytics Dashboard** created using **Power BI**.  
+The dashboard analyzes overall sales performance, product categories, customer ratings, payment methods, and regional distribution to provide meaningful and actionable business insights.
 
-![E-Commerce Dashboard](Dashboard/Task1_dashboard.png)
-
----
-
-## Overall Summary
-
-The business generated **£4.1M in revenue** and sold **2 million units** during the period, with **returning customers contributing 79.2% of total revenue** — indicating strong customer loyalty.  
-Sales peaked mid-year and are concentrated in a few high-performing products and categories.
+The objective of this dashboard is to help stakeholders **identify best-selling products, understand sales trends, evaluate customer behavior, and support data-driven decision-making**.
 
 ---
 
-## Key Insights & Recommendations
+## 🔹 Project Overview
 
-### 1. Monthly Sales Trend
-- **Insight:** Sales followed a gradual upward trend from February to July, peaking in July.  
-  A noticeable drop occurs in December, suggesting **seasonality or end-of-year slowdown**.
-- **Recommendation:** Investigate what drives mid-year performance (promotions or seasonal demand).
+The dashboard provides insights into:
 
-### 2. Top-Selling Products by Revenue
-- **Insight:** A few products (like *"Regency Cakestand 3 Tier"* and *"White Hanging Heart T-Light Holder"*) dominate revenue.  
-  Revenue beyond the top 5 drops off sharply, showing **heavy reliance on a small product set**.
-- **Recommendation:** Diversify product promotion and boost mid-tier items to reduce risk.
+- 📈 **Sales trends over time**
+- 📦 **Top-performing product categories**
+- ⭐ **Impact of customer ratings on sales**
+- 💳 **Preferred payment methods**
+- 🌍 **Regional sales distribution**
 
-### 3. Total Sales by Country
-- **Insight:** **Europe is the dominant region** for sales, with pockets in Africa.  
-  **Asia shows low or no activity**, as visualized on the map.
-- **Recommendation:** Expand marketing or distribution strategies in **underperforming regions**.
-
-### 4. Sales Revenue by Product Category
-- **Insight:** The "**Others**" category is by far the largest contributor, likely due to **poor product categorization**.  
-  Fashion, Food, and Electronics follow at a much lower scale.
-- **Recommendation:** Refine product categorization for more actionable insights and boost weaker categories.
-
-### 5. Customer Segmentation (Monthly Trends)
-- **Insight:** **Returning customers consistently outnumber new customers**, especially from March onward.  
-  New customer acquisition is **low and relatively flat**.
-- **Recommendation:** Focus on **lead generation and conversion strategies** to grow the customer base.
-
-### 6. Revenue by Customer Segment
-- **Insight:** Returning customers contribute **£3.25M (79.2%)** of total revenue, while new customers generate **£0.85M (20.8%)**.  
-  This indicates **strong retention and repeat purchasing behavior**.
-- **Recommendation:** **Leverage loyalty** (e.g., through loyalty programs) but also **invest in new customer acquisition**.
+### Key Metrics:
+- **Total Sales:** 10M  
+- **Average Sales:** 10K  
+- **Average Rating:** 3  
+- **Quantity Sold:** 4,924  
 
 ---
 
-## KPI Insights
-- **Total Sales:** £4.1M  
-- **Total Quantity Sold:** 2 million units  
-- **Returning Customer Revenue:** 79.2% of total revenue  
-- **Returning Customers:** 2,589 out of 4,298 total customers  
+## 🔹 Key Features
+
+✅ **Total & Average Sales** – Overall business performance analysis  
+📦 **Top Product Categories** – Best-performing categories by sales  
+📈 **Sales Trend Over Time** – Month-wise sales movement  
+💳 **Payment Method Analysis** – COD, Credit Card, Debit Card, UPI, Net Banking  
+🌍 **Sales by Region** – Region-based revenue distribution  
+⭐ **Sales Performance by Rating** – Relationship between customer ratings and sales outcomes  
 
 ---
 
-## Final Recommendations
-1. Boost **new customer acquisition** while maintaining loyalty.  
-2. Balance **revenue reliance** by promoting products beyond the top 5.  
-3. Explore **regional growth** opportunities outside Europe.  
-4. Personalize campaigns for **returning customers** to drive repeat sales.  
-5. Refine **product categorization**, as “Others” is too dominant.
+## 🔹 Insights Gained
+
+- **Grocery** and **Electronics** contribute the highest revenue  
+- **Debit Card** and **COD** are the most preferred payment methods  
+- Sales show **noticeable seasonal fluctuations**  
+- Products with **higher ratings** tend to have better sales performance  
+- Certain regions generate **consistently stronger sales** than others  
 
 ---
 
-## Tools & Skills Used
-- **Power BI Desktop** – for building the interactive dashboard  
-- **Excel** – for data cleaning and preparation  
-- **DAX (Data Analysis Expressions)** – for KPIs and customer segmentation  
-- **Data Modeling** – created relationships, date table, and hierarchies  
-- **Business Storytelling** – visualizing insights for decision-making  
+## 🔹 Tools & Technologies Used
+
+- **Power BI** – Dashboard development & data visualization  
+- **Power Query** – Data cleaning & transformation  
+- **DAX (Data Analysis Expressions)** – Measures & KPI creation  
+- **Excel** – Raw dataset preparation  
+- **Data Modeling** – Establishing relationships and data structure  
 
 ---
 
-## What I Learned
-- Cleaning and transforming raw e-commerce sales data  
-- Building time-based hierarchies (Year, Month) for trend analysis  
-- Writing DAX measures for KPIs like New vs Returning Customers  
-- Designing interactive dashboards with slicers and drill-through  
-- Presenting insights clearly for non-technical stakeholders  
+## 🔹 What I Learned
+
+- Cleaning and transforming raw e-commerce data using **Power Query**  
+- Creating interactive dashboards using **Power BI**  
+- Designing measures and KPIs using **DAX**  
+- Building relationships & a clean **data model**  
+- Understanding and visualizing business metrics  
+- Improving **analytical thinking & storytelling with data**  
 
 ---
 
-## Repository Contents
-- [Task1_Dashboard.pbix](https://github.com/DataananalystAnjolaoluwa/FUTURE_DS_01/blob/main/Task%201%20FutureInterns_ecommerce%20sales%20project.pbix) – The completed Power BI dashboard  
-- [All_Sales_Data.xlsx](https://github.com/DataananalystAnjolaoluwa/FUTURE_DS_01/blob/main/All_Sales_Data.xlsx) – Cleaned and combined dataset (2009–2011)  
-- [ProductCategory_MappingTable.xlsx](https://github.com/DataananalystAnjolaoluwa/FUTURE_DS_01/blob/main/ProductCategory_MappingTable.xlsx) – Mapping of products to categories  
-- [README.md](https://github.com/DataananalystAnjolaoluwa/FUTURE_DS_01/blob/main/README.md) – Project summary and insights  
-- [Dashboard Preview](https://github.com/DataananalystAnjolaoluwa/FUTURE_DS_01/blob/main/Preview/Task1_dashboard.png) – Screenshot for quick view  
+## 🔹 How to View the Dashboard
 
----
-
-## How to View the Dashboard
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/MahekSaxena/FUTURE_DS_01.git
-
-2. Use the filters and visuals to explore sales trends, best-selling products, and customer insights.
+1. Clone this repository:
+```bash
+git clone https://github.com/MahekSaxena/FUTURE_DS_01.git
