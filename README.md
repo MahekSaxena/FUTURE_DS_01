@@ -95,7 +95,7 @@ Sales peaked mid-year and are concentrated in a few high-performing products and
 ## How to View the Dashboard
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/DataananalystAnjolaoluwa/FUTURE_DS_01.git
+   git clone https://github.com/MahekSaxena/FUTURE_DS_01.git
 
 2. Open Task1_Dashboard.pbix in Power BI Desktop (free to download [here](https://powerbi.microsoft.com/desktop/)).
 
