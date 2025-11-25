@@ -97,6 +97,4 @@ Sales peaked mid-year and are concentrated in a few high-performing products and
    ```bash
    git clone https://github.com/MahekSaxena/FUTURE_DS_01.git
 
-2. Open Task1_Dashboard.pbix in Power BI Desktop (free to download [here](https://powerbi.microsoft.com/desktop/)).
-
-3. Use the filters and visuals to explore sales trends, best-selling products, and customer insights.
+2. Use the filters and visuals to explore sales trends, best-selling products, and customer insights.
