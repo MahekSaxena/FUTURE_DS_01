@@ -3,7 +3,7 @@
 This project analyzes UK-based e-commerce sales data from 2009–2011 to uncover **best-selling products, sales trends, and high-revenue categories**.  
 The goal is to help business owners and decision-makers **understand performance drivers** and make data-driven decisions.
 
-![E-Commerce Dashboard](Preview/Task1_dashboard.png)
+![E-Commerce Dashboard](Dashboard/Task1_dashboard.png)
 
 ---
 
